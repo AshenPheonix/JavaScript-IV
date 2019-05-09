@@ -26,7 +26,7 @@ class Instructor extends Person{
     }
     gradeStudent(student){
         let score=Math.floor(Math.random()*20-10)
-        student.score+=score
+        student.grade+=score
     }
 }
 
@@ -76,7 +76,8 @@ const dan=new Instructor({
     age:'unk',
     favLanguage:'Javascript',
     specialty:"front end",
-    catchPhrase:"I Love Cats"
+    catchPhrase:"I Love Cats",
+    location:'Seattle"'
 })
 
 const brandon=new Student({
@@ -98,3 +99,6 @@ console.log(dan);
 console.log(brandon);
 console.log(adam);
 dan.speak()
+console.log(brandon.grade);
+dan.gradeStudent(brandon)
+console.log(brandon.grade);
