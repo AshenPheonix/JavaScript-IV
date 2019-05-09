@@ -25,13 +25,8 @@ class Instructor extends Person{
         console.log(`${student.name} recieves a perfect score on ${subject}`);
     }
     gradeStudent(student){
-        let direction=Math.floor(Math.random()*2),
-            score=Math.floor(Math.random()*10)
-        if(direction===1){
-            student.score+=score
-        }else{
-            student.score-=score
-        }
+        let score=Math.floor(Math.random()*20-10)
+        student.score+=score
     }
 }
 
@@ -102,3 +97,4 @@ const adam=new Project_Manager({
 console.log(dan);
 console.log(brandon);
 console.log(adam);
+dan.speak()

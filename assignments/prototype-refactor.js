@@ -63,11 +63,11 @@ class CharacterStats extends GameObject{
   
 
 class Humanoid extends CharacterStats{
-    constructor(base){
-        super(base.createdAt, base.name, base.dimensions, base.healthPoints)
-        this.team=base.team
-        this.weapons=base.weapons
-        this.language=base.language
+    constructor({createdAt, name,dimensions, healthPoints,team,weapons,language}){
+        super(createdAt, name, dimensions, healthPoints)
+        this.team=team
+        this.weapons=weapons
+        this.language=language
     }
     greet(){
         return `${this.name} offers a greeting in ${this.language}`
