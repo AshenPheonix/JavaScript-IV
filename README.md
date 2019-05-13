@@ -6,18 +6,18 @@ This challenge focuses on classes in JavaScript using the new `class` keyword.
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [x] Create a forked copy of this project.
+* [x] Add your project manager as collaborator on Github.
+* [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [x] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-* [ ] Add your project manager as a reviewer on the pull-request
-* [ ] Your project manager will count the project as complete by merging the branch back into master.
+* [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [x] Add your project manager as a reviewer on the pull-request
+* [x] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Assignment Description
 
@@ -54,7 +54,7 @@ const fred = new Person({
   * **Instructors** - extensions of Person
   * **Students** - extensions of Person
   * **Project Managers** - extensions of Instructors
-* **IMPORTANT** - You'll need to create 2 - 3 objects for each class and test them according to their unique Attributes. For example:
+  * **IMPORTANT** - You'll need to create 2 - 3 objects for each class and test them according to their unique Attributes. For example:
 
 ```js
 const fred = new Instructor({
